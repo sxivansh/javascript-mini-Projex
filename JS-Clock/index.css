@@ -1,0 +1,47 @@
+html{
+    background: url("blue-blur.jpeg");
+    background-size:  cover;
+    font-family: Helvetica, neue;
+    text-align: center;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+body{
+    font-size: 2rem;
+    
+}
+.hand{
+    width: 50%;
+    height: 6px;
+    background: black;
+    position: absolute;
+    top: 50%;
+    transform-origin: 100%;
+    transform: rotate(90deg);
+    transition:all 0.05s;
+    transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+
+}
+.clock{
+    width: 30rem;
+    height: 30rem;
+    border: 20px solid white;
+    border-radius: 50%;
+    margin: 5px auto;
+    position: relative;
+}
+.clock-face{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    /* transform: translateY(-50%); */
+}
+.text{
+    margin-top: 27px;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: cursive;
+}
