@@ -1,0 +1,96 @@
+
+:root{
+    --base: #ffc600;
+    --spacing: 10px;
+    --blur: 10px;
+}
+img {
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));
+    height: 40vh;
+    width: 20%;
+
+}
+.h1{
+    color: var(--base);
+}
+
+body{
+    
+    height: 100vh;
+    background: #193549;
+    color: white;
+    font-family: 'Helvetica neue', sans-serif;
+    font-weight: 100;
+    font-size: 50px;
+    text-align: center;
+    margin: 0;
+
+   
+}
+.controls{
+       margin-bottom: 50px;
+}
+a{
+    color: var(--base);
+    text-decoration: none;
+}
+input{
+    width: 100px;
+}
+/* a{
+
+} */
+@media (max-width: 1024px) {
+    body {
+        font-size: 40px;
+    }
+
+    img {
+        height: 35vh;
+        width: 25%;
+    }
+
+    input {
+        width: 150px;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 30px;
+    }
+
+    img {
+        height: 30vh;
+        width: 30%;
+    }
+
+    .controls {
+        margin-bottom: 40px;
+    }
+
+    input {
+        width: 200px;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        font-size: 20px;
+    }
+
+    img {
+        height: 25vh;
+        width: 40%;
+    }
+
+    .controls {
+        margin-bottom: 30px;
+    }
+
+    input {
+        width: 100px;
+    }
+}
